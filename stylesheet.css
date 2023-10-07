@@ -4,31 +4,41 @@ body {
 }
 
 /* Create and apply styles to classes */
-.my-class {
+.section-title {
     font-weight: bold;
-    color: blue;
+    color: #007bff;
 }
 
 /* Create and apply styles to IDs */
-#my-id {
+#header-title {
     text-align: center;
     background-color: #eee;
+    padding: 10px;
 }
 
 /* Use div to create sections */
 .section1 {
     background-color: #f0f0f0;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .section2 {
     background-color: #d0d0d0;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 /* Change link color on hover */
 a:hover {
-    color: red;
+    color: #ff0000;
+}
+
+/* Change box model properties */
+.section-title {
+    padding: 5px;
+    margin: 0;
+    border: 2px solid #007bff;
 }
 
 /* Add styles to images */
