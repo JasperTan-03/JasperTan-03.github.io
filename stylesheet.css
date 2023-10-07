@@ -1,0 +1,38 @@
+/* Apply styles to HTML tags */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Create and apply styles to classes */
+.my-class {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Create and apply styles to IDs */
+#my-id {
+    text-align: center;
+    background-color: #eee;
+}
+
+/* Use div to create sections */
+.section1 {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.section2 {
+    background-color: #d0d0d0;
+    padding: 20px;
+}
+
+/* Change link color on hover */
+a:hover {
+    color: red;
+}
+
+/* Add styles to images */
+img {
+    max-width: 100%;
+    height: auto;
+}
