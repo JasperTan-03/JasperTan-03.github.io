@@ -1,13 +1,14 @@
 /* Apply styles to HTML tags */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #9E6A37;
+    color: #303030;
 }
 
 /* Create and apply styles to classes */
 .project {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #ECBAA8;
+    border: 1px solid #9E6A37;
     padding: 10px;
     margin: 10px;
 }
@@ -15,19 +16,20 @@ body {
 /* Create and apply styles to IDs */
 #header-title {
     text-align: center;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #EFB661;
+    color: #303030;
     padding: 10px;
 }
 
 /* Use div to create sections */
 #projects {
-    background-color: #f0f0f0;
+    background-color: #837A58;
+    color: #303030;
     padding: 20px;
 }
 
 #about {
-    background-color: #e0e0e0;
+    background-color: #EFB661;
     padding: 20px;
 }
 
@@ -39,6 +41,7 @@ a:hover {
 /* Change box model properties */
 .project {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #303030;
     border-radius: 4px;
 }
 
