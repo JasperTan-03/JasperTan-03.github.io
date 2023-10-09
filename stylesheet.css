@@ -46,7 +46,10 @@ a:hover {
 }
 
 /* Add styles to images */
-img {
-    max-width: 100%;
+img.profile-image {
+    max-width: 10px;
     height: auto;
+    border-radius: 50%; /* Circular border */
+    margin: 20px auto; /* Center the image */
+    display: block; /* Remove any inline spacing */
 }
