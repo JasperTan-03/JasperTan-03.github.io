@@ -2191,14 +2191,16 @@ input, select, textarea {
 	}
 
 	/* Mobile Icon Sizing */
-	@media (max-width: 768px){
+	@media screen and (max-width: 736px) {
 		.icon-grid {
-			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-			grid-auto-flow: row;
-			gap: 10px;
+			grid-template-rows: repeat(6, 1fr);
+			grid-auto-flow: column;
 		}
-	
+
+		.icon-grid img {
+			width: 20vw; /* Adjust the width to 20vw */
+			height: 20vh; /* Adjust the height to 20vh */
+		}
 	}
 
 	ul.icons {
